@@ -2,63 +2,68 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Practica 1 </title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
+    <header>
+        <div>
+        <h1 id="Nombre"> Alan Yafet Núñez González </h1>
+        </div>
+        <div id="ExplicacionHeader">
+        <p>Éste encabezado le dí un formato así, con ayuda de un "id" con el valor de "Nombre" para llamarlo en CSS y poder darle ese color, posicionarlo en el centro, una fuente en negritas y el tamaño</p>
+        </div>
+    </header>
     
+        <video id="video-background" src="NFL.mp4" type="video/mp4" autoplay muted loop >
+        </video>
+    <section >
+        <div class="ExplicacionVideo">
+        <h1 align="center">Video de fondo</h1>
+        <p>Este video se realizó con una etiqueta link que nos dirige hacía nuestro archivo CSS, donde declaramos una propiedad llamada - "position" con valor "sticky" para que al deslizar el video se quede estático.</p>
+        <p>Este pequeño trozo de video es de <strong>FarCray 3 Experience</strong> donde se nota una divertida tortura hacía un explorador</p>
+        <p>Si deseas dirigirte a la página oficial de <strong>Far Cry</strong> <bolt>Da Click</bolt><a href="https://far-cry.ubisoft.com/game/en-us/home/" target="_blank"><blot> aqui</blot></a></p>
+        </div>
+        <div>
+        <p id="imageDes">Mi personaje favorito de los comics es Spiderman y por eso te dejaré una imágen de él</p>
+            <img src="spidey.png" class="imageSize">
+            
+            <p id="ExplicacionImage">Con ayuda de CSS pudimos usar nuestro selecto de "id" para poder darle ese formato dandole bordes a nuestros textos, con propiedades como "border-color" y "border-style"</p>
+        </div>
+    </section>
     <main>
     <!-- Dentro del body siempre va el header -->
-        
+
     <section class="misection">
-        <h1 id="Nombre" align="center"> Alan Yafet Núñez González </h1>
-        <p id="description"> Soy estudiante de Ing. Sistemas Computacionales y Electronicos y creo que ya </p>
+        
+        <p id="description"> Soy estudiante de Ing. Sistemas Computacionales y Electronicos</p>
     </section>
 
-    <section_2 class="misection2">
+    <section class="SectionDos">
         <a href="www.google.com.mx" target="blank"></a>
-    </section_2>
+    </section>
     
-    <section_3>
-    <p>Mi nombre es <bold>Alan Núñez</bold> ésta es <strong> mi primer página web </strong>
-        por lo que pues debo hacer un texto donde utilice diferentes tipos de tags como <i>letra en cursiva</i> o marcar <mark>cierto texto</mark>, puedo hacer <small>la letra pequeña tambien</small>, rayar cierta palabras que <del>NO</del> quiero decir y darles <em>énfasis</em> 
-        por ejemplo cuando quiero poner una <em>fórmula</em> como H<sub>2</sub>O, o tambien <strong>elevar a una potencia</strong> como x<sup>4</sup>
+    <section class="SectionTres">
+        <div id="etiquetas">
+        <p>Mi nombre es <bold>Alan Núñez</bold> ésta es <strong> mi primer página web </strong>
+        por lo que pues debo hacer un texto donde utilice diferentes tipos de tags como <i>letra en cursiva</i> o marcar <mark>cierto texto</mark>, puedo hacer <small>la letra pequeña tambien</small>, rayar cierta palabras que <del>NO</del> quiero decir y darles <em>énfasis</em> y colocar un subíndice como por ejemplo cuando quiero poner una <em>fórmula</em> como H<sub>2</sub>O, o tambien <strong>elevar a una potencia</strong> como x<sup>4</sup>
         <br>
-        
-        <a href="www.google.com"></a>
-        <br>
-        
-        <ins>no se les olvide visitar la página.</ins></p>
-        
-    </section_3>
-        
-        <section_4>
-          <center>
-        <blockquote cite="https://www.expoelearning.com/verdadero-signo-la-inteligencia-no-conocimiento-sino-la-imaginacion-albert-einstein/">
-            El verdadero signo de la inteligencia no es el conocimiento, sino la imaginación
-            <br>
+        <ins>Explicación de diferentes etiquetas utilizadas en ésta página.</ins></p>
+        </div>
+        <div>
+            <p id="ExplicacionAcomodo">Para acomodar los textos e imágenes en la página, utilice una propiedad llamada "position" dándole un valor llamado "relative" dándole los valores correspondientes de "right", "left", "bottom", "top"</p>
+        </div>
+    </section>
             
-            <cite>Albert Einstein</cite>
-            </blockquote>
-            <p>Einstein:
-            <q>Si buscas resultados distintos, no hagas siempre lo mismo</q>
-            </p>
-                  </center>    
-        </section_4>
         <br><br>
-<section_5>
-    <header>
-        <center>
-        <img src="Eins.PNG" alt="Einstein" height="300" width="600">
-        </center>
-    </header>    
-</section_5>
-
-        <br><br>
-        <section_6>
-            <h2 align="center">Tabla para nombres</h2>
-            <table align="center">
-                <caption>Tabla</caption>
+        <section class="SectionSeis">
+            <h2 align="center" class="SeccionCompleta H2 design">Tabla para nombres</h2>
+            <p align="center" class="SeccionCompleta DesTabla design">Ésta tabla utiliza <bolt>CSS</bolt> para el uso de bordes</p>
+            <table align="center" class="SeccionCompleta DesTabla">
+                <caption class="design"><bolt>Tabla</bolt></caption>
                 <tr>
                     <th><bolt>Nombre completo</bolt></th>
                     <th><bolt>Apellido Paterno</bolt></th>
@@ -109,23 +114,27 @@
                 </tfoot>
                 
             </table>
-        </section_6>
-        
-<style>
-    .misection #Nombre{
-    color: blue;
-    font-size: 59px;
-    font-weight: bold;
-    }
-    
-    #colspan{
-        align-content: center;
-    }
-    </style>
+        </section>
 </main>
-        
-    <footer>
+</body>
+    <br><br><br>
+    <footer class="SeccionCompleta">
+    <header>
+        <img src="Eins.PNG" alt="Einstein" height="300" width="600" id="ImgEins">
+    </header>    
+        <section class="SectionCuatro">
+          <center>
+            <blockquote cite="https://www.expoelearning.com/verdadero-signo-la-inteligencia-no-conocimiento-sino-la-imaginacion-albert-einstein/" id="quote" class="design">
+            El verdadero signo de la inteligencia no es el conocimiento, sino la imaginación
+            <br>
+            
+            <cite>Albert Einstein</cite>
+            </blockquote>
+            <p id="quote" class="design">Einstein:
+            <q>Si buscas resultados distintos, no hagas siempre lo mismo</q>
+            </p>
+            </center>    
+        </section>
         <blockquote cite="https:www.google.com">  </blockquote>
     </footer>
-</body>
 </html>

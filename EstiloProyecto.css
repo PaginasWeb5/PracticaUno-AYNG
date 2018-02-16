@@ -1,0 +1,170 @@
+/*Degrada el color*/
+/*.gradiente{
+    background: Linear-gradient(blue 40%, rgba(89,50,90, 0.5));
+    width: 100%;
+    height: 200px;
+}*/
+
+
+#videoBack{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.5;
+}
+div > h1{
+    font-size: 35px;
+    color: darkred;
+}
+.bordes{
+    border-style: inset;
+    border-width: thin;
+    border-color: darkred;
+    padding: 14px 14px;
+    overflow: hidden;
+    -webkit-animation: shadow;
+    align-items: center;
+}
+-webkit-keyframes shadow{
+    50%{
+        box-shadow: 10px;
+    }
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-family: monospace;
+}
+.Que{
+    background-color: brown;
+}
+.Que:hover{
+    background-color: darkslateblue;
+    -webkit-transition: background 0.4s;
+}
+.Selectores{
+    background-color: darkgray;
+}
+.Selectores:hover{
+    background-color: dimgray;
+    -webkit-transition: background 0.4s;
+}
+.Propiedad{
+    background-color: darkgray;
+}
+.Propiedad:hover{
+    background-color: dimgray;
+    -webkit-transition: background 0.4s;
+}
+.Valor{
+    background-color: darkgray;
+}
+.Valor:hover{
+    background-color: dimgray;
+    -webkit-transition: background 0.4s;
+}
+.Declaracion{
+    background-color: darkgray;
+}
+.Declaracion:hover{
+    background-color: dimgray;
+    -webkit-transition: background 0.4s;
+}
+.Pagina{
+    background-color: darkgray;
+}
+.Pagina:hover{
+    background-color: dimgray;
+    -webkit-transition: background 0.4s;
+}
+.huno{
+    color: darkred;
+}
+.huno:hover{
+    color: white;
+    -webkit-transition: color 1s;
+}
+.contenido1:hover{
+    color: white;
+    background: rgba(0,0,0,0.5);
+    visibility: visible;
+    -webkit-transition: background 1s;
+}
+.PrincipalAnimation{
+    font-size: 50px;
+}
+.SecondPrincipal{
+    opacity: 0.4;
+}
+.container{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.FTitle:hover{
+    font-size: 30px;
+    color:darkslateblue;
+    -webkit-transition: color 1s;
+}
+.cont{
+    width: 100%;
+    background-color: grey;
+}
+.skills{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+.HTML5{
+    width: 49%;
+    background-color: green;
+}
+.CSS3{
+    width: 30%;
+    background-color: red;
+}
+.contStyle{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.quote{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.video{
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+[class=video] p{
+    width: 400px;
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+}
+.explicacion{
+    text-align: center;
+    color: darkred;
+    background-color:  white;
+    font-family: serif;
+}
+.explicacion:hover{
+    background: rgba(0,0,0,0.5);
+    font-size: 19px;
+    color:white;
+    -webkit-transition: background 1s;
+    -webkit-transition: color 2;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    font-size: 25px;
+    color: white;
+}

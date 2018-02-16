@@ -1,0 +1,163 @@
+#Nombre{
+    color:white;
+    font-size: 59px;
+    z-index: 100%; 
+    font-weight: bold;
+    border-style: groove;
+    border-color: darkblue;
+    border-width: medium;
+    width: 700px;
+    position: relative;
+    left: 360px;
+}
+body{
+    margin: 0;
+}
+    
+#etiquetas{
+    font-size: 25px;
+    border-style: groove;
+    border-color: black;
+    width: 700px;
+    color:floralwhite;
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+    left: 300px;
+}
+#colspan{
+    align-content: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    background-color: beige;
+}
+
+#centroPrincipal{
+    font-size: 22px;
+}
+
+#video-background{
+    position: fixed;
+    
+   /* min-height: 520px;
+    min-width: 520px;*/
+    
+    top: 0%;
+    left: 2%;
+    
+    transform: translateX(-50) translateY(-50);
+    z-index: -1;
+    
+}
+body{
+    margin: 0;
+    position: static;
+}
+
+/*body .ExplicacionVideo{
+    margin: 0;
+    border-right: 50%;
+    font-display: block;
+}*/
+
+.ExplicacionVideo{
+    width: 200px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 930px;
+    top: 200px;
+}
+#ExplicacionHeader{
+    width: 48%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 390px;
+}
+
+#description{
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+    position: relative;
+    bottom: 150px;
+    left: 300px;
+    border-style: ridge;
+    border-color: darkblue;
+    width: 700px;
+}
+
+.imageSize{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 280px;
+    left: 75px;
+}
+
+#imageDes{
+    width: 500px;
+    font-size: 24px;
+    color: bisque;
+    font-style: bold;
+    border-color: darkred;
+    border-style: groove;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    bottom: 310px;
+}
+#ExplicacionImage{
+    width: 400px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    font-size: 20px;
+    position: relative;
+    bottom: 270px;
+    left: 75px;
+}
+
+#ExplicacionAcomodo{
+    width: 300px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    font-size: 20px;
+    width: 200px;
+    position: relative;
+    left: 1100px;
+}
+.H2{
+}
+.DesTabla{
+}
+
+.SeccionCompleta{
+    position: relative;
+    left: 0px;
+    bottom: 350px;
+}
+
+#ImgEins{
+    position: relative;
+    left: 380px;
+}
+
+.design{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+#quote{
+}
